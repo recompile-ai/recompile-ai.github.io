@@ -55,10 +55,10 @@ const Testimonial = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
           <div className={tilesClasses}>
 
-            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
+            {/* <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -73,9 +73,9 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="tiles-item reveal-from-bottom">
+            {/* <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -90,9 +90,9 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+            {/* <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -107,7 +107,7 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
