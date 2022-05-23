@@ -17,8 +17,9 @@ const Logo = ({
     <div
       {...props}
       className={classes}
+      style = {{display:"flex" }}
     >
-      <h1 className="m-0">
+      <h1 className="m-0" style = {{"padding-right":"10px"}}>
         
         {/* <Link to="/">
           <Image
@@ -27,11 +28,27 @@ const Logo = ({
             width={32}
             height={32} />
         </Link> */}
-        <h1>
-        RECOMPILE
-        </h1>
+        
       </h1>
+      <div style={{color: "white","font-size": "30px","font-weight": "bold"}}>
+      RE:MIND
+      </div>
     </div>
+    // <div style = {{display:"flex" }}>
+    //   <div>
+    //   <Link to="/">
+    //        <Image
+    //         src={require('./../../../assets/images/logo.svg')}
+    //         alt="Open"
+    //         width={32}
+    //         height={32} />
+    //   </Link>
+    //   </div>
+    //   <div>
+    //     <h1>RECOMPILE</h1>
+    //   </div>
+    // </div>
+    
   );
 }
 
